@@ -1,0 +1,30 @@
+{
+  "name": "gasper",
+  "plural": "gaspers",
+  "base": "Application",
+  "idInjection": true,
+  "properties": {
+    "filename": {
+      "type": "string",
+      "required": true
+    },
+    "filelocation": {
+      "type": "string",
+      "required": true
+    },
+    "fileobject": {
+      "type": "object",
+      "required": true
+    },
+    "filedate": {
+      "type": "date"
+    },
+    "filegeopoint": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

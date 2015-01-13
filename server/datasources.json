@@ -1,0 +1,10 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "gasperfiles": {
+    "name": "gasperfiles",
+    "connector": "mongodb"
+  }
+}
